@@ -1,7 +1,7 @@
 # ChatBot
-# Medibot
+## Medibot
 A simple rule-based medical chatbot made using Python.
-<br>
+
 ## Features
 
 - ✅ Simple and clean GUI built with `Tkinter`
