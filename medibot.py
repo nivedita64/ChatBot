@@ -1,6 +1,7 @@
 import json
 import os
 import tkinter as tk
+import pyttsx3
 
 # Loading responses from JSON file
 file_path = os.path.join(os.path.dirname(__file__), "responses.json")
@@ -15,12 +16,20 @@ def get_response(user_input):
             return responses[key]
     return responses.get("default", "Sorry, I couldn't understand. Can you please rephrase your symptoms?")
 
+#speak response
+engine = pyttsx3.init()
+def speak_response(response_text):
+    engine.say(response_text)
+    engine.runAndWait()
+
+
 # GUI setup
 def send_message():
     user_input = entry.get()
     chat_log.insert(tk.END, f"You: {user_input}\n")
     response = get_response(user_input)
     chat_log.insert(tk.END, f"MediBot: {response}\n\n")
+    speak_response(response) 
     entry.delete(0, tk.END)
 
 # Creating window
