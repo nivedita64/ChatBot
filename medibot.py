@@ -19,7 +19,7 @@ print("Hello! I'm MediBot. Ask me about your symptoms (type 'exit' to quit).\n")
 while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
-        print("MediBot: Take care! Bye")
+        print("MediBot: Take care! Bye ")
         break
     response = get_response(user_input)
     print("MediBot:", response)
