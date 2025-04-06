@@ -1,0 +1,14 @@
+{
+    "fever": "Home Treatment: Stay hydrated, take rest, and use cold compresses. Medicine: Paracetamol (e.g., Crocin) to reduce fever.",
+    "cough": "Home Treatment: Drink warm fluids, ginger tea, and use honey. Medicine: Dextromethorphan syrup (e.g., Benadryl) or cough drops.",
+    "headache": "Home Treatment: Rest in a quiet room, drink water, and avoid screens. Medicine: Paracetamol or Ibuprofen (e.g., Saridon, Combiflam).",
+    "cold": "Home Treatment: Inhale steam, drink warm soups, and rest. Medicine: Antihistamines like Cetirizine (e.g., Cetzine).",
+    "stomach pain": "Home Treatment: Eat light food, avoid oily/spicy items. Medicine: Antacids like Gelusil or Dicyclomine (e.g., Cyclopam).",
+    "diarrhea": "Home Treatment: Drink ORS, eat bananas or boiled rice. Medicine: Loperamide (e.g., Imodium) or probiotics.",
+    "acidity": "Home Treatment: Avoid spicy food, take cold milk. Medicine: Antacids like Rantac or Pantoprazole.",
+    "sore throat": "Home Treatment: Gargle with warm salt water, drink warm tea. Medicine: Lozenges or antibiotics like Azithromycin (if bacterial).",
+    "vomiting": "Home Treatment: Rest, sip clear fluids. Medicine: Ondansetron (e.g., Emeset) or Domperidone.",
+    "muscle pain": "Home Treatment: Apply heat or cold pack, gentle stretching. Medicine: Pain relievers like Ibuprofen (e.g., Brufen) or topical gels.",
+    "constipation": "Home Treatment: Increase fiber intake, drink warm water. Medicine: Laxatives like Lactulose (e.g., Duphalac).",
+    "default": "Sorry, I couldn't understand. Can you please rephrase your symptoms?"
+}
