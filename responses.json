@@ -21,7 +21,8 @@
     "anxiety": "Try to relax and breathe slowly. You may consider speaking to a mental health professional.",
     "depression": "You are not alone. Please talk to someone you trust or consult a mental health professional.",
     "default": "Sorry, I couldn't understand. Can you please rephrase your symptoms?",
-    "thankyou": "it was a pleasure helping you"
+    "thankyou": "it was a pleasure helping you",
+    "bye": "bye, see you soon, Take Care"
 }
 
    
